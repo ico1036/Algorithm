@@ -2,18 +2,18 @@ import glob
 import subprocess
 
 ##################################################################
-#  * Purpose: run excute.py code with input files			     #
-#  * There are many input files									 #
-#  * You wan't to run like this:							     #
-#																 #
-#  - Suppose the number of total input files = 11				 #
-#  - You wan to input maxium 4 input files for each run			 #													 
-#	 >python excute.py input0 input1 input2 input3				 #
-#    >python excute.py input4 input5 input6 input7				 #
-#    >python excute.py input8 input9 input10	    			 #
-#																 #
-#  You can choose maxfile ( max input file number )			     #
-#  The number of ouput files are automatically calculated		 #
+#  * Purpose: run excute.py code with input files			    
+#  * There are many input files								
+#  * You wan't to run like this:							    
+#																
+#  - Suppose the number of total input files = 11				
+#  - You wan to input maxium 4 input files for each run															 
+#    >python excute.py input0 input1 input2 input3				 
+#    >python excute.py input4 input5 input6 input7				 
+#    >python excute.py input8 input9 input10	    			 
+#																 
+#  You can choose maxfile ( max input file number )			     
+#  The number of ouput files are automatically calculated		 
 ##################################################################
 
 file_list  = glob.glob("/xrootd_user/jwkim2/xrootd2/HEP_CNN_Large_Image/32PU/RPV/*.h5")
