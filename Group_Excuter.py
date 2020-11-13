@@ -39,5 +39,8 @@ for i in range(nout):
 	fn = outfile_name.split('.')[0] 
 	fn_out = fn + '_' + str(i) + ".h5"
 
-	args = 'python' + ' '+ 'excute.py' + ' ' + '-option' + ' ' + fn_out + ' '+  infiles
-	subprocess.call(args,shell=True)
+	print(infiles)
+	
+	# Run specific excutable codes
+	#args = 'python' + ' '+ 'excute.py' + ' ' + '-option' + ' ' + fn_out + ' '+  infiles
+	#subprocess.call(args,shell=True)
